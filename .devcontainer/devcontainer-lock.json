@@ -5,6 +5,11 @@
       "resolved": "ghcr.io/devcontainers/features/go@sha256:3b2c7acfdb24de88292283d10eb7517ccc45f60ae22a97030f1cf4fbd03634f3",
       "integrity": "sha256:3b2c7acfdb24de88292283d10eb7517ccc45f60ae22a97030f1cf4fbd03634f3"
     },
+    "ghcr.io/devcontainers/features/node:2.1.1": {
+      "version": "2.1.1",
+      "resolved": "ghcr.io/devcontainers/features/node@sha256:2a19d3b0b3879437637cfd292eb29fee0afcfbe6364e33db9afc4f80c5c1f956",
+      "integrity": "sha256:2a19d3b0b3879437637cfd292eb29fee0afcfbe6364e33db9afc4f80c5c1f956"
+    },
     "ghcr.io/thamaji/devcontainer-features/codex-cli:latest": {
       "version": "1.2.5",
       "resolved": "ghcr.io/thamaji/devcontainer-features/codex-cli@sha256:06c222cde6ec9d57486a2aadf6603ff872bb1f031f599b11a7be74e69965672f",
