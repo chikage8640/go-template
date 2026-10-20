@@ -1,0 +1,26 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "useGitignore": true,
+  "ignorePaths": [
+    ".git/**",
+    "go.sum",
+    "LICENSE"
+  ],
+  "words": [
+    "codex",
+    "devcontainer",
+    "devcontainers",
+    "gitleaks",
+    "golang",
+    "GOPATH",
+    "histappend",
+    "HISTFILE",
+    "lefthook",
+    "seccomp",
+    "shopt",
+    "streetsidesoftware",
+    "thamaji",
+    "vscode"
+  ]
+}

@@ -1,0 +1,8 @@
+pre-commit:
+  parallel: true
+  commands:
+    gitleaks:
+      run: gitleaks git --pre-commit --staged --redact
+    cspell:
+      glob: "*.{go,md,json,yml,yaml,sh}"
+      run: cspell lint --no-progress --no-must-find-files {staged_files}

@@ -1,0 +1,24 @@
+{
+  "features": {
+    "ghcr.io/devcontainers/features/go:1": {
+      "version": "1.4.0",
+      "resolved": "ghcr.io/devcontainers/features/go@sha256:3b2c7acfdb24de88292283d10eb7517ccc45f60ae22a97030f1cf4fbd03634f3",
+      "integrity": "sha256:3b2c7acfdb24de88292283d10eb7517ccc45f60ae22a97030f1cf4fbd03634f3"
+    },
+    "ghcr.io/thamaji/devcontainer-features/codex-cli:latest": {
+      "version": "1.2.5",
+      "resolved": "ghcr.io/thamaji/devcontainer-features/codex-cli@sha256:06c222cde6ec9d57486a2aadf6603ff872bb1f031f599b11a7be74e69965672f",
+      "integrity": "sha256:06c222cde6ec9d57486a2aadf6603ff872bb1f031f599b11a7be74e69965672f"
+    },
+    "ghcr.io/thamaji/devcontainer-features/gitleaks:latest": {
+      "version": "1.0.5",
+      "resolved": "ghcr.io/thamaji/devcontainer-features/gitleaks@sha256:1b894f8c1a408512e516ae32c53e4901afa1d734e93805c6460c3d95ec517acd",
+      "integrity": "sha256:1b894f8c1a408512e516ae32c53e4901afa1d734e93805c6460c3d95ec517acd"
+    },
+    "ghcr.io/thamaji/devcontainer-features/lefthook:latest": {
+      "version": "1.1.5",
+      "resolved": "ghcr.io/thamaji/devcontainer-features/lefthook@sha256:ae6d85a82ac5e87e2d646590066074d2c744540c55897fda3b328a340696c75c",
+      "integrity": "sha256:ae6d85a82ac5e87e2d646590066074d2c744540c55897fda3b328a340696c75c"
+    }
+  }
+}

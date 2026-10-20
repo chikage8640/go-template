@@ -1,0 +1,22 @@
+services:
+  dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    init: true
+    # Keep the development container running while VS Code connects.
+    command: ["sleep", "infinity"]
+    working_dir: /workspace
+    cap_add:
+      - SYS_PTRACE
+    security_opt:
+      - seccomp:unconfined
+      - apparmor:unconfined
+    environment:
+      GOPATH: /home/vscode/go
+      HISTFILE: /home/vscode/.cache/bash/history
+    volumes:
+      - ..:/workspace
+      - ./.bash:/home/vscode/.cache/bash
+      - ./.codex:/home/vscode/.codex
+      - ./.go:/home/vscode/go
